@@ -1,3 +1,25 @@
 {
-    "type": "module"
+    "type": "module",
+    "name": "namaste-node",
+    "version": "1.0.0",
+    "description": "This is repository is puposly designed during the learning period of node js with namaste node course",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/uditset/namaste-node.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/uditset/namaste-node/issues"
+    },
+    "homepage": "https://github.com/uditset/namaste-node#readme",
+    "dependencies": {
+        "dotenv": "^16.4.7",
+        "express": "^5.1.0"
+    }
 }
