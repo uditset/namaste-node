@@ -25,3 +25,14 @@ subtract(a,b);
 divide(a,b);
 console.log(typeof users);
 console.log(JSON.stringify(users));
+
+function scopeCheking(){
+    var h = 2;
+}
+
+
+
+//IIFE
+(function(){
+    console.log("This is immediately invoked function expression");
+})();
