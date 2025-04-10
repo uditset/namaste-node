@@ -14,3 +14,6 @@ Controller folder contains files in which functions are return to return final f
 
 route -> will call controller callback func -> controller will call service func to perform logic and service func will return data after the lodic is done to controller back -> controller will give response to client finally and socket will be closed.
 
+//Date: 10-04-2025
+//Doing CRUD operation with express.
+
