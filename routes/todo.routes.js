@@ -1,10 +1,11 @@
 import { Router } from "express";
-import { toDoDeleteHandler, toDoGetHandler, toDoPatchHandler, toDoPostHandler, toDoPutHandler } from "../controllers/todo.controller.js";
+import { toDoDeleteHandler, toDoGetByIdHandler, toDoGetHandler, toDoPatchHandler, toDoPostHandler, toDoPutByIdHandler } from "../controllers/todo.controller.js";
 const toDoRoute = Router();
 toDoRoute?.get('/',toDoGetHandler);
+toDoRoute?.get('/:id',toDoGetByIdHandler);
 toDoRoute?.post('/',toDoPostHandler);
-toDoRoute?.put('/',toDoPutHandler);
+toDoRoute?.put('/:id',toDoPutByIdHandler);
 toDoRoute?.patch('/',toDoPatchHandler);
-toDoRoute?.delete('/',toDoDeleteHandler);
+toDoRoute?.delete('/:id',toDoDeleteHandler);
 
 export default toDoRoute;
