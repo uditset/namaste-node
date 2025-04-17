@@ -1,3 +1,29 @@
 {
-    "type": "module"
+    "type": "module",
+    "name": "namaste-node",
+    "version": "1.0.0",
+    "description": "This is repository is puposly designed during the learning period of node js with namaste node course",
+    "main": "esapp.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon indexGql.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/uditset/namaste-node.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/uditset/namaste-node/issues"
+    },
+    "homepage": "https://github.com/uditset/namaste-node#readme",
+    "dependencies": {
+        "@apollo/server": "^4.12.0",
+        "graphql": "^16.10.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.9"
+    }
 }
