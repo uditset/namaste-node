@@ -1,3 +1,17 @@
 {
-    "type": "module"
+    "type": "module",
+    "scripts": {
+        "server": "nodemon ./gRPC/server",
+        "client": "nodemon ./gRPC/client"
+    },
+    "dependencies": {
+        "@grpc/grpc-js": "^1.13.3",
+        "@grpc/proto-loader": "^0.7.15",
+        "dotenv": "^16.5.0",
+        "express": "^5.1.0",
+        "lodash": "^4.17.21"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.9"
+    }
 }
